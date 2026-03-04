@@ -1,0 +1,40 @@
+# 后端 (Python)
+backend/__pycache__/
+backend/.pytest_cache/
+backend/.venv/
+backend/venv/
+backend/env/
+*.py[cod]
+*$py.class
+backend/uploads/
+
+# 前端 (React/Vite)
+frontend/node_modules/
+frontend/dist/
+frontend/.eslintcache
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# 环境变量
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 论文/附件/各种文档
+*测试论文*
+
+# 操作系统 / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.claude/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
